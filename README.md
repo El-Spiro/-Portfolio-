@@ -6,7 +6,7 @@
 ## Education
 - Technical Lissence of anthena and communication | Zgharta Official Vocational School, Lebanon (2021)							       		
 
-### current goal
+### Current Goal
 -trying to obtain a IT degree lissence 
 
 ## Work Experience
