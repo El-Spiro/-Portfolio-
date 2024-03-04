@@ -33,4 +33,9 @@ The file transfer between both machines is successful, and the files are located
 ![ping test](assets/3.png)
 
 <span style="text-decoration:underline;">Chapter 2</span>
+To Print all lines where birthdays are in the year 1935, we use the following Grep command.
+grep “/35” GrepLab.
+grep: command 
+“/35”: using this pattern input we can locate the individual whose birthdays are in the year 1935. 
+GrepLab: the file where the command is issued.
 ![ping test](assets/1.1.png)
