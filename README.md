@@ -59,7 +59,7 @@ For (i = 1; I <= count; i++) {
 Average = line_sums[i] /3;
 If (average > 300) {
 
-				Printf “%s %s $%.2f\n” , first_names[i], first_letters[i], average;
+##Printf “%s %s $%.2f\n” , first_names[i], first_letters[i], average;
 }
 }
 }
