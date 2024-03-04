@@ -67,17 +67,28 @@ If (average > 300) {
 }’ AwkLab.data
    awk: pattern scanning and text-processing tool 
 -F ":": This option sets the field separator to ":". AWK will use this separator to split each input line into fields.
+
 split($1, name, " "): This function splits the first field “$1” of the input line using a space (" ") as the separator and stores the result in the array name.
+
  sum = $3 + $4 + $5;: This calculates the sum of the third, fourth, and fifth fields and assigns it to the variable sum.
+ 
 count++;: This increments the variable count by 1, indicating the number of lines processed.
+
 line_sums[count] = sum;: This stores the sum of the numbers from fields 3, 4, and 5 in the array line_sums at the index count.
+
 first_names[count] = name[1];: This stores the first name in the array first_names at the index count.
+
 lastName = name[length(name)];: This retrieves the last name from the name array.
+
 first_letters[count] = substr(lastName, 1, 1);: This extracts the first letter of the last name and stores it in the array first_letters.
+
 The END block processes after all lines have been read. It checks if there is data to process (count > 0).
+
 The for loop iterates over each line processed.
+
 average = line_sums[i] / 3;: This calculates the average of the sum stored in line_sums.
 
  if (average > 300) { printf "%s %s $%.2f\n", first_names[i], first_letters[i], average; }: If the average is greater than 300, it prints the first name ”%s” , the first letter of the last name “%s” , and the average in the specified format “$%.2f\n”.
+ 
 AwkLab.data: This is the input file that awk is processing.
 ![pic4](assets/2.1.png)
