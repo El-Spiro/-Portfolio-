@@ -1,5 +1,6 @@
 # - Midterm Portfolio-
-
+[github pages](https://pages.github.com/themes/)
+[more github pages](https://pages.github.com/)
 ## completed Assingments
 
 <span style="text-decoration:underline;">1)</span>
