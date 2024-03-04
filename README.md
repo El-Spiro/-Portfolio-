@@ -2,7 +2,7 @@
 
 ## completed Assingments
 
-<span style="text-decoration:underline;">Chapter 1</span>
+##<span style="text-decoration:underline;">Chapter 1</span>
 Transferring files between virtual machines necessitates that these machines are situated within the same network, as demonstrated in the network configuration we provided.
 We begin by verifying the connectivity between the machines using the "ping" command. First, from the Ubuntu server machine, we execute the command "ping 192.168.100.5" and confirm a successful connection to the other machine. Next, from the CentOS machine, we execute the command "ping 192.168.100.4" and again confirm a successful connection.
 ![ping test](assets/2.png)
