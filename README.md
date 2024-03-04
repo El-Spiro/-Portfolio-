@@ -79,3 +79,4 @@ average = line_sums[i] / 3;: This calculates the average of the sum stored in li
 
  if (average > 300) { printf "%s %s $%.2f\n", first_names[i], first_letters[i], average; }: If the average is greater than 300, it prints the first name ”%s” , the first letter of the last name “%s” , and the average in the specified format “$%.2f\n”.
 AwkLab.data: This is the input file that awk is processing.
+![ping test](assets/2.1.png)
