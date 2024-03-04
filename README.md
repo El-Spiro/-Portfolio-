@@ -1,4 +1,6 @@
 # - Midterm Portfolio-
 
-## completed Projects
+## completed Assingments
 
+##Chapter 1
+![ping test]()
