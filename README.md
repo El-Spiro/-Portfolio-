@@ -43,11 +43,17 @@ GrepLab: the file where the command is issued.
 
 <span style="text-decoration:underline;">3)</span>
 To Print the first name and first letter of the last name, and average contribution of those who had an average contribution of more then $300 we enter the following awk code
+
 Awk -F: ‘{
+
 Split($1, name, “ “);
+
 Sum = $3 + $4 + $5;
+
 Count++;
+
 line_sums[count]  =  sum;
+
 first_names[count]  = name[1];
 
 lastName = name[length(name)];
